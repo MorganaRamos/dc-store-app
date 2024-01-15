@@ -1,4 +1,5 @@
 .footer {
+   
     align-items: center;
     background-color: #1f1f1f;
     color: #fff;
@@ -6,6 +7,33 @@
     font-style: normal;
 }
 
+/* ajuste dos icones de redes sociais */
 .social-icon{
+    margin-top: 3em;
+    color: white;
+    gap: 2rem; /* dá os espaços ao redor dos icones */
+    display: flex;
+}
+
+
+/* ajuste de titulos: informação, categoria e contatos */
+.col-6.col-md > h5{
+    font-size: 18px;
+    margin-bottom: 1.5em; /*coloca espaços do titulo pra baixo*/
+}
+
+/* ajuste de subtitutos */
+ul > li > a {
+    font-size: 15px;
+    color: #FAF7F7;
+}
+
+/* ajuste do @2024 digital college */
+.footer-bottom{
+    text-align: center;
+    font-size: 11px;
     
 }
+
+
+
