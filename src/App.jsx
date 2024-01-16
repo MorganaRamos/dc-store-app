@@ -1,5 +1,8 @@
 import { Footer } from './Components/footer/Footer'
 import { Outlet } from 'react-router-dom'
+import { MenuBar } from './Components/header/MenuBar'
+
+
 // import { Container } from 'react-bootstrap'
 
 
@@ -8,6 +11,7 @@ function App() {
 
   return (
     <>
+      <MenuBar/>
       <Outlet />
       <Footer />
     </>
