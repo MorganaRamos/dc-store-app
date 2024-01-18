@@ -16,8 +16,12 @@ export const MenuBar = () => {
               </Col>
                <Col md={6}>
                 <InputSearch/>
-               
                </Col> 
+               <Col md={3}>
+                <a href="/cadastro" className="cadastrese mr-2">Cadastre-se</a>
+                <ButtonTemplate nome='Entrar' />
+              </Col>
+               
 
             </Row>
           </Col>
