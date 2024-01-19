@@ -3,6 +3,9 @@ import { Col, Container, Navbar, Row } from "react-bootstrap";
 import "./MenuBar.css";
 import logocolor from "../../assets/home/logocolor.png";
 import { InputSearch } from "../inputSearch/InputSearch";
+import { ButtonTemplate } from "../button/Button";
+import carrinho from "../../assets/home/carrinho.png"
+import { Menu } from "../menu/Menu";
 
 export const MenuBar = () => {
   return (
@@ -21,11 +24,16 @@ export const MenuBar = () => {
                 <a href="/cadastro" className="cadastrese mr-2">Cadastre-se</a>
                 <ButtonTemplate nome='Entrar' />
               </Col>
-               
+              <Col md={1} className="d-flex justify-content-end">
+                <img src={carrinho} height='55%' alt="" class="styles_imagemLogo__9LaY3" />
+              </Col>
 
             </Row>
           </Col>
         </Navbar>
+        <Col md={12} style={{ marginBottom: '2em' }}>
+          <Menu />
+        </Col>
       </Container>
     </div>
   );
