@@ -1,4 +1,6 @@
-.navbar{
-    padding-Top : '2em';
-    padding-Bottom: '2em'
+/*  */
+.img {
+display: flex;
+flex-direction: row;
+margin-right: 90px;
 }

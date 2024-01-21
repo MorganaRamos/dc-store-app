@@ -1,18 +1,19 @@
 import React from 'react'
-import { Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import './Menu.css'
 
 export const Menu = () => {
   return (
 
    <Container> 
-    <div className="menu">
-    <Nav>
-    <Nav.Link href="#home">Home</Nav.Link>
-    <Nav.Link href="#link">Produtos</Nav.Link>
-    <Nav.Link href="#link">Categorias</Nav.Link>
-    <Nav.Link href="#link">Meus Pedidos</Nav.Link>
-    </Nav>
-    </div>
+      <div className='menu'>
+    <ul >
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Produtos</a></li>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Meus Pedidos</a></li>
+      </ul>
+  </div>
   </Container>
   )
 }
