@@ -2,6 +2,16 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import './Menu.css'
 
+
+// const RealcePage = (props)=>{
+//   const location = useLocation()
+//   let active = location.pathname == props.path ? "actived" : ""
+//   if (props.path =='/home' && location.pathname=='/') active = "actived"
+//   return (
+//       <li className="nav-item"> <Link className={`nav-link ${active}`} to={props.path}>{props.name}</Link> </li>
+//   )
+// }
+
 export const Menu = () => {
   return (
 
