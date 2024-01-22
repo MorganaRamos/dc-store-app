@@ -1,7 +1,12 @@
 .btn-entrar{
-    margin-top: 30px;
-    margin-left: 250px;
-    width: 114px;
-    height: 40px
+    margin-top: -45px;
+    width: 7.4vw;
+    margin-left: 230px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 8px;
+    
 }
 

@@ -22,10 +22,10 @@ export const MenuBar = () => {
                </Col> 
                <Col md={3}>
                 <a href="/cadastro" className="cadastrese mr-2">Cadastre-se</a>
-                <ButtonTemplate nome='Entrar' />
+                <ButtonTemplate nome='Login' />
               </Col>
               <Col md={1} className="d-flex justify-content-end">
-                <img src={carrinho} height='55%' alt="" class="styles_imagemLogo__9LaY3" />
+                <img className= "carrinho" src={carrinho}  alt=""/>
               </Col>
 
             </Row>

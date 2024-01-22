@@ -1,6 +1,26 @@
-/*  */
-.img {
-display: flex;
-flex-direction: row;
+/* ajusta css da logo */
+.mb-2 {
+margin-top: 38px;
 margin-right: 90px;
 }
+
+.col-md-3 > .cadastrese{
+    font-family: Inter, sans-serif;
+    color: #474747;
+    margin-left: 90px;
+    display: flex;
+   margin-top: 60px;;
+    
+    
+}
+
+
+
+.carrinho{
+    margin-top: 55px;
+    margin-right: -55px;
+    width: 33px;
+    height: 29px;
+}
+
+
